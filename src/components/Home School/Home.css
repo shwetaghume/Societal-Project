@@ -1,0 +1,343 @@
+.mainpic {
+  position: relative;
+}
+
+.head-school {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  text-align: start;
+  width: 600px;
+  height: auto;
+  color: white;
+  padding: 10px;
+}
+.head-school h1 {
+  font-size: 54px;
+}
+h1 .under-line {
+  text-decoration: underline;
+  text-decoration-color: #ffd800;
+}
+.bottom-div {
+  position: absolute;
+  top: 81%;
+  bottom: 130px;
+  width: 1000px;
+  padding-left: 30px;
+}
+
+.parent-principle {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(243, 246, 249);
+}
+
+.principle-child {
+  width: 700px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+}
+
+.APJ {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
+  height: 400px;
+  background-color: #222;
+}
+.APJ-pic {
+  position: relative;
+  bottom: 50px;
+}
+.APJ-qute {
+  color: white;
+  width: 620px;
+}
+.APJ-qute >h3{
+  font-size: 40px;
+}
+.TakeAdm{
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 1440px) {
+  .principle-child {
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    margin: 20px;
+  }
+  .principle-child h1 {
+    font-size: 25px;
+  }
+  .head-school {
+    left: 5%;
+  }
+}
+
+@media (max-width: 1360px) {
+  .head-school {
+    left: 3%;
+    top: 5%;
+  }
+
+  .bottom-div {
+    width: 867px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .principle-child {
+    width: 500px;
+    padding: 10px;
+  }
+  .head-school h1 {
+    font-size: 29px;
+  }
+
+  .head-school {
+    left: 3%;
+    top: 7%;
+  }
+  .announcement {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1217px) {
+  .head-school h1 {
+    font-size: 20px;
+  }
+
+  .head-school {
+    left: 2%;
+  }
+  .bottom-div {
+    width: 670px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .head-school h1 {
+    font-size: 38px;
+  }
+
+  /* h1 .under-line {
+    text-decoration: none;
+    /* text-decoration-color: #ffd800; */
+
+  .head-school p {
+    font-size: 18px;
+    width: 420px;
+  }
+  .announcement {
+    font-size: 18px;
+  }
+  .bottom-div {
+    bottom: 103px;
+  }
+  .principle-child {
+    width: 400px;
+  }
+  .parent-principle {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1104px) {
+  .APJ-pic {
+    display: none;
+  }
+  .principle-child {
+    width: 479px;
+  }
+  .APJ {
+    padding: 0px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .principle-child {
+    width: 450px;
+  }
+  .bottom-div {
+    width: 650px;
+  }
+  .head-school h1 {
+    font-size: 17px;
+  }
+  .APJ-qute >h3{
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 900px) {
+  .head-school {
+    width: 300px;
+  }
+  .head-school h1 {
+    font-size: 17px;
+  }
+  .head-school p {
+    font-size: 13px;
+    width: 350px;
+  }
+
+  .bottom-div {
+    width: 510px;
+    bottom: 85px;
+  }
+
+  .announcement {
+    font-size: 14px;
+  }
+
+  .bottom-div p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 750px) {
+  .principle-child {
+    margin: 20px;
+  }
+  .bottom-div {
+    width: 410px;
+    bottom: 73px;
+  }
+  .head-school p {
+    font-size: 9px;
+    width: 270px;
+  }
+  .head-school h1 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 620px) {
+  .head-school {
+    width: 250px;
+  }
+  .head-school p {
+    font-size: 7px;
+    width: 200px;
+  }
+  .bottom-div p {
+    font-size: 6px;
+  }
+  .announcement {
+    font-size: 9px;
+  }
+  .bottom-div {
+    width: 310px;
+    bottom: 52px;
+  }
+}
+
+@media (max-width: 550px) {
+  .head-school {
+    width: 250px;
+  }
+  .head-school p {
+    font-size: 7px;
+    width: 200px;
+  }
+  .APJ {
+    padding: 5%;
+  }
+}
+
+@media (max-width: 460px) {
+  .head-school {
+    width: 200px;
+    top: 25px;
+  }
+
+  .bottom-div {
+    width: 250px;
+    bottom: 47px;
+  }
+}
+
+@media (max-width: 400px) {
+  .MainPicImg {
+    display: none;
+  }
+
+  .principle-child1 {
+    height: 169px;
+  }
+  .principle-child2 {
+    height: 360px;
+  }
+  .principalImgg {
+    object-position: top;
+    object-fit: contain;
+  }
+  .parent-principle {
+    padding-top: 210px;
+  }
+
+  .head-school {
+    top: 0%;
+    left: 0%;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+  }
+  .head-school p {
+    width: auto;
+    font-size: 11px;
+  }
+  .head-school h1 {
+    font-size: 21px;
+  }
+  .bottom-div {
+    width: auto;
+    bottom: 0;
+    margin-top: 177px;
+    padding: 0 20px;
+    display: none;
+  }
+  .admButton {
+    display: none;
+  }
+  .bottom-div p {
+    font-size: 11px;
+  }
+  .announcement {
+    font-size: 21px;
+  }
+  .principle-child2 h2 {
+    font-size: 21px;
+  }
+  .principle-child2 p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 380px) {
+  .APJ-qute h3 {
+    font-size: 16px;
+  }
+
+  .APJ-qute h5 {
+    font-size: 12px;
+  }
+
+  .APJ-qute p {
+    font-size: 8px;
+  }
+}

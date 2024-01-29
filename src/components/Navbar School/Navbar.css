@@ -1,0 +1,20 @@
+/* 
+@media only screen and (max-width: 1300px) {
+   
+} */
+
+
+@media only screen and (max-width: 1000px) {
+    .Donate{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .schL{
+        height: 40px;
+    }
+}
+.schL{
+    height: 100px;
+}

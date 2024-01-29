@@ -5,7 +5,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./Admission.css";
-import admissionImg from "./admissionImg.png";
+import admissionImg from "./admissionImage.png.avif";
 import { useEffect } from "react";
 export default function Admission({ setProgress }) {
   useEffect(() => {
@@ -13,7 +13,7 @@ export default function Admission({ setProgress }) {
     setTimeout(() => {
       setProgress(100);
     }, 2000);
-  }, []);
+  }, [setProgress]);
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
@@ -33,15 +33,33 @@ export default function Admission({ setProgress }) {
           </h3>
         </div>
       </div>
-      <h1 className="s2Heading">Documents require for admission process</h1>
-      <h4 className="s2SubHeading">
-        -Previous year Passing certificate with Marks card.<br></br>
-        -School Leaving Certificate.<br></br>
-        -Student's Aadhar Card.<br></br>
-        -Parents Aadhar Card and Mobile Number.
-      </h4>
+      <hr className="hrForAdm"></hr>
+
+      <div className="section2">
+        <div className="s2flex1">
+          <h1 className="s2Heading">Documents require for admission process</h1>
+          <h4 className="s2SubHeading">
+            - Previous year Passing certificate with Marks card.<br></br>-
+            School Leaving Certificate.<br></br>- Student's ID Card.
+            <br></br>- Parents Mobile Number.
+          </h4>
+        </div>
+        <div className="s2flex2">
+          <h2 className="contHeader">Contact for Admission</h2>
+          <h4 className="contSubHeadings">Asst.Tr- Aaron Dsouza</h4>
+          <h4 className="contSubHeadings">
+            <a
+              href={"tel:+917777555523"}
+              style={{ textDecoration: "none", color: "#009688" }}
+            >
+              Mobile No : 7777555523
+            </a>
+          </h4>
+        </div>
+      </div>
 
       <h1 className="s3Heading">Frequently Asked Questions</h1>
+
       <div className="accordianDiv">
         <Accordion
           expanded={expanded === "panel1"}
@@ -100,6 +118,26 @@ export default function Admission({ setProgress }) {
             <Typography>
               Once if you fill the Application form and if you submit the
               required documents to school then your Admission Process is over.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion
+          expanded={expanded === "panel4"}
+          onChange={handleChange("panel4")}
+        >
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel4bh-content"
+            id="panel4bh-header"
+          >
+            <Typography sx={{ width: "100%", flexShrink: 0 }}>
+              What Financial aid is available?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              We offer a range of Financial aid options, including Scholarships,
+              Grants, and Loans. Please visit us for more Information.
             </Typography>
           </AccordionDetails>
         </Accordion>

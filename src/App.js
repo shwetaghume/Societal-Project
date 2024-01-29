@@ -1,15 +1,22 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import Principal from "./components/Principal";
-import Navbar from "./components/Navbar";
-import Gallary from "./components/Gallary";
-import Staff from "./components/Staff";
-import Admission from "./components/Admission";
+import Footer from "./components/Footer/Footer";
+// import Principal from "./components/Principal";
+import Navbar from "./components/Navbar School/Navbar.js";
+
+import Home from "./components/Home School/Home.js";
+import Staff from "./components/Contact School/Staff.js";
+import Admission from "./components/Admission School/Admission.js";
 import LoadingBar from "react-top-loading-bar";
 import { useState } from "react";
+import Faculty from "./components/Staff School/Faculty.js";
+import { ToastContainer } from "react-toastify";
+import About from "./components/School About/About.js";
+import EventList from "./components/Event Gallery/EventList.js";
 
 // import About from "./components/About";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Developers from "./components/Developers/Developers.js";
+
 function App() {
   const [progress, setProgress] = useState(0);
   return (
@@ -23,20 +30,41 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           <Route
-            path="/Gallery"
-            element={<Gallary setProgress={setProgress}></Gallary>}
+            path="/gallery/event"
+            element={<EventList setProgress={setProgress}></EventList>}
           ></Route>
           <Route
             path="/"
-            element={<Principal setProgress={setProgress}></Principal>}
+            element={<Home setProgress={setProgress}></Home>}
           ></Route>
+          {/* <Route
+            path="/gallery/event"
+            element={<Gallary setProgress={setProgress}></Gallary>}
+          ></Route> */}
           <Route
-            path="/Admission"
+            path="/about"
+            element={<About setProgress={setProgress}></About>}
+          ></Route>
+          {/* <Route
+            path="/"
+            element={<Principal setProgress={setProgress}></Principal>}
+          ></Route> */}
+          <Route
+            path="/admission"
             element={<Admission setProgress={setProgress}></Admission>}
           ></Route>
           <Route
-            path="/Contact"
+            path="/staff"
+            element={<Faculty setProgress={setProgress}></Faculty>}
+          ></Route>
+
+          <Route
+            path="/contact"
             element={<Staff setProgress={setProgress}></Staff>}
+          ></Route>
+          <Route
+            path="/developers"
+            element={<Developers setProgress={setProgress}></Developers>}
           ></Route>
           {/* <Route path="/About" element={<About></About>}></Route> */}
         </Routes>
@@ -47,6 +75,20 @@ function App() {
         {/* <Admission></Admission> */}
         {/* <Principal></Principal> */}
       </div>
+      {/* <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
+      {/* Same as */}
+      <ToastContainer />
     </Router>
   );
 }

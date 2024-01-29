@@ -74,6 +74,9 @@ p svg {
   margin: 20px;
 }
 @media (max-width: 800px) {
+  .footerHeading{
+    margin-left: 10%;
+  }
   .flexContainer {
     padding-left: 0;
   }
@@ -88,6 +91,8 @@ p svg {
   .copy{
     font-size: 13px;
   }
+
+  
 }
 .copy {
   background-color: rgb(0, 12, 12);
