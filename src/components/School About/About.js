@@ -19,7 +19,7 @@ export default function About({ setProgress }) {
           <img className="schoolImg" src={schoolImg} alt="schoolImage" />
         </div>
         <div className=" btnDiv schoolOverview">
-          <h1 style={{ textAlign: "center" }}>University Overview</h1>
+          <h1 style={{ textAlign: "center" }}>Overview</h1>
           <p>
             It was established in 1890 and it is managed by Department of
             Education. It is located in Urban Area. It is located in Great
