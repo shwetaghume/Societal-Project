@@ -223,7 +223,7 @@ function Navbar(props) {
               style={{ height: "60px", margin: "0 10px", marginTop: "5px" }}
             />
             <Typography variant="h6">
-              Govt. Marathi Higher Primary School No.34
+            Great Imperial University Michigan
             </Typography>
             <Divider />
             <List>
