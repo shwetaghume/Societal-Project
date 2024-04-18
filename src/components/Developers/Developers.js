@@ -70,21 +70,21 @@ const developersData = [
     name: "Avinash Pauskar",
     role: "Android Developer",
     imageSrc:
-      "https://media.licdn.com/dms/image/D5603AQHyyP-uxLPmzg/profile-displayphoto-shrink_800_800/0/1680338891338?e=1710979200&v=beta&t=-qxrLZp1o9omWQt817IRZArC8xBkgZjfEwmDhx4cSbw",
+      "https://media.licdn.com/dms/image/D5603AQHyyP-uxLPmzg/profile-displayphoto-shrink_800_800/0/1680338891338?e=1718841600&v=beta&t=E6WtwYH-n2sT0QgNzzPAerkiDopxhAK-U9YEZ1Kwfng",
     linkedinProfile: "https://www.linkedin.com/in/avinash-pauskar-00b597244/",
   },
   {
     name: "Ganesh Kugaji",
     role: "Backend Developer",
     imageSrc:
-      "https://media.licdn.com/dms/image/D5603AQFzgmLfwH1jvg/profile-displayphoto-shrink_400_400/0/1704341115201?e=1710979200&v=beta&t=QHgrzRIP26TW3vYbw2bryJJSF8SxFlKrZ83l0ABWgKc",
+      "https://media.licdn.com/dms/image/D5603AQFzgmLfwH1jvg/profile-displayphoto-shrink_800_800/0/1704341115201?e=1718841600&v=beta&t=a9XGEtc9yV3-uI28TKma9bvyAVRbEhkRp-dxCoxUBOc",
     linkedinProfile: "https://www.linkedin.com/in/ganesh-kugaji-69483b244/",
   },
   {
     name: "Dhananjay Dharne",
     role: "React Developer",
     imageSrc:
-      "https://media.licdn.com/dms/image/D5603AQEtxTy-sPXtMQ/profile-displayphoto-shrink_400_400/0/1706454668797?e=1712188800&v=beta&t=AK5X15ohrPP8-cs7vSQnlGEPRBlFgETP3PzUByFiNIE",
+      "https://media.licdn.com/dms/image/D5603AQEtxTy-sPXtMQ/profile-displayphoto-shrink_800_800/0/1706454668797?e=1718841600&v=beta&t=rS0wNiOkm5xJsPJgdF-O3iQnbzlfzpem3v7N2nZQqvM",
     linkedinProfile: "https://www.linkedin.com/in/dhananjay-dharne-663856235/",
   },
 ]; // ... (other imports)
