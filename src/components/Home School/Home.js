@@ -2,7 +2,7 @@ import React from "react";
 // import PropTypes from "prop-types";
 // import principalImg from "./principal.jpg";
 import principalImg from "./princi.jpg";
-import Mainpic from "./Mainn.jpg";
+import Mainpic from "./Main.png";
 // import APJ from "./APJ.png";
 import APJ from "./steve.png";
 import "./Home.css";

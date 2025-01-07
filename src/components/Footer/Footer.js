@@ -62,18 +62,16 @@ export default function Footer() {
               <p>
                 <Link to="/admission">- Admission</Link>
               </p>
-              <p>
+              {/* <p>
                 <Link to="/staff">- Staff Details</Link>
-              </p>
-              <p>
+              </p> */}
+              {/* <p>
                 <Link to="/gallery/event">- Gallery / Event</Link>
-              </p>
+              </p> */}
               <p>
                 <Link to="/contact">- Contact</Link>
               </p>
-              <p>
-                <Link to="/developers">- Developers</Link>
-              </p>
+              
             </div>
             <div className="flexchild">
               <h3>Have a question?</h3>
@@ -91,8 +89,7 @@ export default function Footer() {
         <div className="copy">
           <hr></hr>
           <p>
-            Copyright ©2023. All rights reserved. | This website is made by Team
-            Matrix Glitch
+            Copyright ©2023. All rights reserved. | This website is made by students of KLS GIT
           </p>
         </div>
       </Box>

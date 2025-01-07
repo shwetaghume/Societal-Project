@@ -1,15 +1,14 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
+// shwetas firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyB0hZFIZB09nj0AeipjkR1gLqo4iLDj-xY",
-  authDomain: "schoolapp-web-aef73.firebaseapp.com",
-  databaseURL: "https://schoolapp-web-aef73-default-rtdb.firebaseio.com",
-  projectId: "schoolapp-web-aef73",
-  storageBucket: "schoolapp-web-aef73.appspot.com",
-  messagingSenderId: "313463433649",
-  appId: "1:313463433649:web:1eb1d4865de73e1d5cf590",
-  measurementId: "G-F4687RM9H4",
+  apiKey: "AIzaSyDixT0KYl3scLl03jSqz5GdEQ_ptnAffqc",
+  authDomain: "govt-school-website-6884e.firebaseapp.com",
+  projectId: "govt-school-website-6884e",
+  storageBucket: "govt-school-website-6884e.firebasestorage.app",
+  messagingSenderId: "930264384485",
+  appId: "1:930264384485:web:ee5f131f431dbe4796250c",
 };
 
 const app = initializeApp(firebaseConfig);

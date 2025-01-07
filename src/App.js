@@ -15,7 +15,6 @@ import EventList from "./components/Event Gallery/EventList.js";
 
 // import About from "./components/About";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Developers from "./components/Developers/Developers.js";
 
 function App() {
   const [progress, setProgress] = useState(0);
@@ -62,10 +61,7 @@ function App() {
             path="/contact"
             element={<Staff setProgress={setProgress}></Staff>}
           ></Route>
-          <Route
-            path="/developers"
-            element={<Developers setProgress={setProgress}></Developers>}
-          ></Route>
+         
           {/* <Route path="/About" element={<About></About>}></Route> */}
         </Routes>
         <Footer></Footer>

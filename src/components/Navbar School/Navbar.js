@@ -31,12 +31,12 @@ import "./Navbar.css";
 const drawerWidth = 240;
 const navItems = [
   { label: "Home", path: "/" },
-  { label: "Staff Details", path: "/staff" },
+  // { label: "Staff Details", path: "/staff" },
   { label: "Admission", path: "/admission" },
-  { label: "Gallery", path: "/gallery/event" },
+  // { label: "Gallery", path: "/gallery/event" },
   { label: "About", path: "/about" },
   { label: "Contact", path: "/contact" },
-  { label: "Developers", path: "/developers" },
+ 
 ];
 
 const useStyles = makeStyles((theme) => ({
@@ -141,7 +141,7 @@ function Navbar(props) {
           >
             <MenuIcon />
           </IconButton>
-          <img
+          {/* <img
             src={SchoolLogo}
             alt="School Logo"
             className="schL"
@@ -152,7 +152,7 @@ function Navbar(props) {
               marginTop: "5px",
             }}
             xs={{ height: "40px" }}
-          />
+          /> */}
 
           <Typography
             variant="h6"
