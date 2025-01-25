@@ -31,12 +31,11 @@ import "./Navbar.css";
 const drawerWidth = 240;
 const navItems = [
   { label: "Home", path: "/" },
-  // { label: "Staff Details", path: "/staff" },
+  { label: "Staff Details", path: "/staff" },
   { label: "Admission", path: "/admission" },
-  // { label: "Gallery", path: "/gallery/event" },
+  { label: "Gallery", path: "/gallery/event" },
   { label: "About", path: "/about" },
   { label: "Contact", path: "/contact" },
- 
 ];
 
 const useStyles = makeStyles((theme) => ({
@@ -162,7 +161,7 @@ function Navbar(props) {
               display: { xs: "none", lg: "block" },
             }}
           >
-            Great Imperial University Michigan
+            Goverment Marathi Primary School
           </Typography>
           <Box sx={{ display: { xs: "none", lg: "block" } }}>
             {navItems.map((item) => (
@@ -223,7 +222,7 @@ function Navbar(props) {
               style={{ height: "60px", margin: "0 10px", marginTop: "5px" }}
             />
             <Typography variant="h6">
-            Great Imperial University Michigan
+              Goverment Marathi Primary School
             </Typography>
             <Divider />
             <List>

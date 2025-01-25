@@ -39,20 +39,20 @@ export default function Admission({ setProgress }) {
         <div className="s2flex1">
           <h1 className="s2Heading">Documents require for admission process</h1>
           <h4 className="s2SubHeading">
-            - Previous year Passing certificate with Marks card.<br></br>-
-            School Leaving Certificate.<br></br>- Student's ID Card.
-            <br></br>- Parents Mobile Number.
+            - Birth Certificate
+            <br />- Aadhar Card <br />- Guardian Identity Proof<br></br>- ID
+            Size Photograph
           </h4>
         </div>
         <div className="s2flex2">
           <h2 className="contHeader">Contact for Admission</h2>
-          <h4 className="contSubHeadings">Asst.Tr- Aaron Dsouza</h4>
+          <h4 className="contSubHeadings">Kushkumar Laxman Desai</h4>
           <h4 className="contSubHeadings">
             <a
               href={"tel:+917777555523"}
               style={{ textDecoration: "none", color: "#009688" }}
             >
-              Mobile No : 7777555523
+              Mobile No : +91 9845960490
             </a>
           </h4>
         </div>
@@ -118,26 +118,6 @@ export default function Admission({ setProgress }) {
             <Typography>
               Once if you fill the Application form and if you submit the
               required documents to school then your Admission Process is over.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion
-          expanded={expanded === "panel4"}
-          onChange={handleChange("panel4")}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel4bh-content"
-            id="panel4bh-header"
-          >
-            <Typography sx={{ width: "100%", flexShrink: 0 }}>
-              What Financial aid is available?
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              We offer a range of Financial aid options, including Scholarships,
-              Grants, and Loans. Please visit us for more Information.
             </Typography>
           </AccordionDetails>
         </Accordion>

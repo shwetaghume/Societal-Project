@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 // import schoolImg from "./school.jpg";
-import schoolImg from "./School-pic.jpg";
+import schoolImg from "./school.jpg";
 import { useEffect } from "react";
 
 export default function About({ setProgress }) {
@@ -13,7 +13,7 @@ export default function About({ setProgress }) {
   }, [setProgress]);
   return (
     <div>
-      <h1 className="abt">About University</h1>
+      <h1 className="abt">About School</h1>
       <div className="abtSchoolData">
         <div className="infrastructureFacilities">
           <img className="schoolImg" src={schoolImg} alt="schoolImage" />
@@ -21,17 +21,16 @@ export default function About({ setProgress }) {
         <div className=" btnDiv schoolOverview">
           <h1 style={{ textAlign: "center" }}>Overview</h1>
           <p>
-            It was established in 1890 and it is managed by Department of
-            Education. It is located in Urban Area. It is located in Great
-            Imperial University, Midwestern United States. The University
-            consists of Grades from 1 to 7. The university is Co-educational and
-            it doesn't have an attached pre-primary section. The university is
-            N/A in nature and is not using university building as a
-            shift-college. English is the medium of instructions in this
-            university. This university is approachable by all weather road. In
-            this college academic session starts in April. The university has
-            Government building. It has got 17 classrooms for instructional
-            purposes.
+            Established on 22nd September 1939, this primary school is situated
+            in the serene rural area of the Belgaum district. Over the years,
+            the school has become a cornerstone of education in the community,
+            fostering a well-rounded learning environment for young minds. It
+            celebrates key events such as national days, annual picnics, alumni
+            meets, and a vibrant School Opening Day every year. Alongside
+            academics, the school actively engages students in co-curricular
+            activities, nurturing their holistic development and creating
+            cherished memories. Its rich tradition and commitment to excellence
+            continue to make it a beacon of learning and growth in the region.
           </p>
         </div>
       </div>

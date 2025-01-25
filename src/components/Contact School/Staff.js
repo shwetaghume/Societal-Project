@@ -55,10 +55,10 @@ const Staff = ({ setProgress }) => {
   const sendEmail = () => {
     emailjs
       .sendForm(
-        "service_lbcgrm9",
-        "template_1lyh9jr",
+        "service_j3g3h0j",
+        "template_336dhvf",
         form.current,
-        "-iK0wrPIwxHiMZ_sp"
+        "N7z7e9jS9ZQktSWXl"
       )
       .then(
         (result) => {
@@ -186,15 +186,16 @@ const Staff = ({ setProgress }) => {
       </div>
       <div className="map">
         <h1 className="headdd">Location</h1>
+
         <iframe
           title="Location Map"
-          // src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d479.827087916964!2d74.50316880509124!3d15.824152193902874!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf667eee712297%3A0x8d9013afe807c203!2s34%20No%20Marathi%20School!5e0!3m2!1sen!2sin!4v1703771518871!5m2!1sen!2sin"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1239203.6042855922!2d-85.67901387277452!3d43.82968144022355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4caa3dc7ca0411%3A0x97dd48597a62c9b3!2sMichigan%2C%20USA!5e0!3m2!1sen!2sin!4v1706450744380!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d590.4762868658714!2d74.54190821061154!3d15.78203153447785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf6959d4fb0e8d%3A0x1414678c6e2e9630!2sGovt%20school%20maskonhatti!5e1!3m2!1sen!2sin!4v1737566821559!5m2!1sen!2sin"
           width="600"
-          height="350"
-          allowFullScreen=""
+          height="450"
+          style={{ border: 0 }}
+          allowfullscreen=""
           loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
+          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
 

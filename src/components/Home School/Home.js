@@ -1,10 +1,10 @@
 import React from "react";
 // import PropTypes from "prop-types";
 // import principalImg from "./principal.jpg";
-import principalImg from "./princi.jpg";
+import principalImg from "./principalSir.jpg";
 import Mainpic from "./Main.png";
 // import APJ from "./APJ.png";
-import APJ from "./steve.png";
+import APJ from "./APJ.png";
 import "./Home.css";
 import { Button } from "@mui/material";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -24,10 +24,9 @@ function Principal({ setProgress }) {
       <div className="mainpic">
         <div className="head-school">
           <h1>
-            Welcome to Great
-            <br />
-            Im
-            <span className="under-line">perial Universit</span>y Michigan
+            Welcome to
+            <span className="under-line"> Goverment Marathi </span>Primary
+            School
           </h1>
           <p>
             Which stands as a beacon of educational excellence, dedicated to
@@ -63,9 +62,9 @@ function Principal({ setProgress }) {
         <div className="bottom-div">
           <h1 className="announcement">Announcement</h1>
           <p>
-            Enrollment now open at Welcome to Great Imperial University
-            Michigan! Join us to explore, learn, and grow in a vibrant,
-            inclusive academic community
+            Enrollment now open at Welcome to Goverment Marathi Primary School!
+            Join us to explore, learn, and grow in a vibrant, inclusive academic
+            community
           </p>
         </div>
       </div>
@@ -75,31 +74,34 @@ function Principal({ setProgress }) {
             className="principalImgg"
             src={principalImg}
             alt="A beautiful landscape."
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            style={{ width: "100%", height: "350px", objectFit: "cover" }}
           />
         </div>
         <div className="principle-child principle-child2">
           <h2>
-            Principal's Message Welcome to Great Imperial University Michigan
+            Principal's Message Welcome to Goverment Marathi Primary School
           </h2>
 
           <p>
-            “Welcome to Welcome to Great Imperial University Michigan, where
-            every child's potential is nurtured and celebrated. Our dedicated
-            team is committed to providing quality education, fostering
-            creativity, and empowering young minds to excel in both academics
-            and character. Together, let's embark on a journey of learning and
-            growth”.
+            “Welcome to Welcome to Goverment Marathi Primary School, where every
+            child's potential is nurtured and celebrated. Our dedicated team is
+            committed to providing quality education, fostering creativity, and
+            empowering young minds to excel in both academics and character.
+            Together, let's embark on a journey of learning and growth”.
           </p>
-          <h2>Dr. Darlene Robertson</h2>
+          <h2>Kushkumar Laxman Desai</h2>
           <h4>Principal</h4>
         </div>
       </div>
+
       <div className="APJ">
         <div className="APJ-qute">
-          <h3>" The only way to do great work is LOVE what you do "</h3>
-          <h5>- STEVE JOBS</h5>
-          <p>Mantan CEO Apple Inc.</p>
+          <h3>
+            " Learning gives creativity. Creativity leads to thinking. Thinking
+            provides knowledge. Knowledge makes you great."
+          </h3>
+          {/* <h5>-  A.P.J. Abdul Kalam</h5>
+          <p>Former President of India</p> */}
         </div>
         <div className="APJ-pic">
           <img src={APJ} alt="A beautiful landscape." width={"450px"} />
